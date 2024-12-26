@@ -6,3 +6,5 @@ The rotation angles are currently in degrees, but it should be easy to change it
 **Note:** Depending on the pivot point it may be possible to rotate the sprite behind the "camera" point, causing the sprite to deform. The virtual camera point is at the origin and the sprite is projected to a virtual depth of -1 at 90 fov. If a rotation causes the z-component of a vertex's position to become positive, you'll see the distortion. Higher fov values can exasperate this due to shortening the projection distance, but the pivot is the most important. Just be mindful of pivot points that may potentially allow rotating the sprite too close to the camera.
 
 There are two files in this repository: the main shader file, and the debug version with annotations. Most people should use the main version. They work the same way, but the debug version has a few settings left in it that I used for testing purposes, as well as thorough documentation of how the shader actually works for those curious.
+
+https://github.com/user-attachments/assets/14add0bd-bd17-4438-b7a4-a040b4d91cf2
